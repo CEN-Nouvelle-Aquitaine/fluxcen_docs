@@ -4,4 +4,6 @@ Bienvenue sur le dépôt officiel de la documentation du plugin FluxCEN réalis�
 ## Accès direct à la documentation
 https://cen-nouvelle-aquitaine.github.io/fluxcen_docs/
 
+## Accès au dépôt du plugin
+https://github.com/CEN-Nouvelle-Aquitaine/fluxcen
 
