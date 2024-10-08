@@ -1,8 +1,11 @@
-site_name: FluxCEN documentation
+site_name: FluxCEN - Documentation
+repo_url: https://github.com/CEN-Nouvelle-Aquitaine/fluxcen
+repo_name: CEN-NA/fluxcen
 theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - toc.integrate
     - navigation.top
@@ -25,8 +28,24 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
+      primary: blue grey
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
+plugins:
+    - search
+    #- awesome-pages
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+nav:
+  - Accueil:
+    - index.md
+  - Fonctionnement:
+    - fonctionnement.md
+  - Utiliser FluxCEN:
+    - utiliser_fluxcen.md
+  - Exemples:
+    - exemples.md
