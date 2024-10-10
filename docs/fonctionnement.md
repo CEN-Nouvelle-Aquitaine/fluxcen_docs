@@ -1,6 +1,6 @@
 #Les fonctionnalités en détail
 
-Voici les 3 fonctionnalités offertes par FluxCEN
+Voici les 3 fonctionnalités principales offertes par FluxCEN
 
 
 ## Le fichier *flux.csv*

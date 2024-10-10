@@ -4,8 +4,9 @@ Le plugin QGIS FluxCEN permet d'accéder rapidement à un large éventail de flu
 
 Il rend également possible l'édition de "couches SIG collaboratives" grâce à la prise en charge de l'édition de tables du SGBD PostgreSQL/PostGIS.
 
+Il évite ainsi d'avoir à gérer dans QGIS une multitude de connexions et simplifie grandement l'accès aux données dans un système d'information.
 
-Il évite ainsi d'avoir à gérer dans QGIS une multitude de connexions et simplifie grandement l'accès aux données dans un système d'information. 
+Grâce au lien direct avec le dépôt GitHub, l'ajout et la modification des ressources ne nécessite pas de publier à chaque fois une nouvelle version du plugin.
 
 
 
@@ -14,20 +15,19 @@ Il évite ainsi d'avoir à gérer dans QGIS une multitude de connexions et simpl
 
 
 
-## Fonctionnalités essentielles
+## Principe de fonctionnement
 
-* `Centralisation et gestion des flux simplifiée dans un fichier .csv`
-* `Prise en charge des flux Geoserver et Mapserver`
+* `Centralisation et gestion des flux simplifiée dans un fichier .csv au sein de catégories`
 * `Recherche rapide des ressources par autocomplétion`
-* `Regroupement des flux au sein de catégories`
 * `Lien direct vers l'URL de la fiche de métadonnées pour chaque flux`
 * `Mise à jour des flux directement depuis le git`
+* `Prise en charge des flux GeoServer et MapServer`
 
-### En plus 
+### Fonctionnalités additionnelles
 
 * `Gestion des styles au format .qml à l'ouverture dans QGIS pour les données WFS`
 * `Fonction d'édition : accès à des tables PostgreSQL/PostGIS pour l'édition collaborative avec gestion du formulaire de saisie`
-* `Code et ressources attachées gérées directement via le git`
+
 
 ## Auteurs
 
