@@ -1,7 +1,7 @@
 # Utiliser FluxCEN
 
 FluxCEN étant développé pour être utilisé au sein du SI d'un organisme, il n'est pas publié dans le dépôt officiel des plugins QGIS.
-Dans un objectif de déploiement automatique, il doit donc donc être hébérgé dans un dépôt privé.
+Dans un objectif de déploiement automatique, il doit donc être hébérgé dans un dépôt privé.
 
 ## 1. Forker le projet
 
@@ -22,9 +22,9 @@ Il faut donc les créer, en utilisant les deux fichiers exemples situés dans `c
 
 </br>
 
-Le fichier `links.yaml` est la clé de voûte du plugin. Il assure le lien entre le plugin et le git et évite ainsi de devoir publier une nouvelle version du plugin à chaque fois que le fichier flux.csv est modifié par exemple.
+Le fichier *`links.yaml`* assure le lien entre le plugin dans QGIS et le git, ce qui évite de devoir publier une nouvelle version du plugin à chaque fois que le fichier *flux.csv* est modifié par exemple.
 
-```yml
+```yaml linenums="1"
 github_urls:
   flux_csv: "link_to_the_csv_file (your_flux.csv)"
   styles_couches: "link_to_the_layer_styles_file (your styles_couches folder)"
@@ -36,13 +36,13 @@ Les liens sont à copier depuis l'application web GitHub en prenant soin de sél
 
 </br>
 
-Le fichier `config_db.yaml` est optionnel et doit être configuré si on veut utiliser l'édition collaborative de couches PostGIS. Il accueille ainsi la configuration de l'accès au cluster de base de données.
+Le fichier *`config_db.yaml`* est optionnel et doit être configuré si on veut accéder à des couches PostGIS. Il accueille ainsi la configuration de l'accès au cluster de base de données (une seule adresse IP).
 
-```yml
+```yaml linenums="1"
 database:
   - type: PostGIS
-    host: your_database_ip
-    port: your_database_port (5432 by default)
+    host: your_database_ip # Adresse IP du cluster PostgreSQL
+    port: your_database_port (5432 by default) # Port pour accéder au cluster PostgreSQL
 ```
 
 ### 2.1 Modifier le fichier flux.csv
