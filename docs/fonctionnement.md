@@ -55,7 +55,7 @@ Le style par défaut peut être enregistré directement dans la base de données
     :fontawesome-solid-database: 
     Une table *layer_styles* est créée automatiquement dans le schéma *public* de la base de données source. Le style est généré en *qml* dans le champ *styleqml*.
 
-### :material-form-select: Attacher des formulaire (UI)
+### :material-form-select: Attacher un formulaire (UI)
 
 Il peut être intéressant d'embarquer dans le style un formulaire *`.ui`* pour une meilleure consultation et/ou édition des données dans QGIS.
 
