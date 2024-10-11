@@ -9,6 +9,7 @@ theme:
     - navigation.sections
     - toc.integrate
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -69,3 +70,4 @@ nav:
     - utiliser_fluxcen.md
   - Exemples:
     - exemples.md
+copyright: 2024 &copy; CEN Nouvelle-Aquitaine

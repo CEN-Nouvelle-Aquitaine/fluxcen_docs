@@ -13,15 +13,16 @@ Grâce au lien direct avec le dépôt GitHub, l'ajout et la modification des res
 
 ## Fonctionnalités
 
-* `Centralisation et gestion des ressources dans un fichier .csv au sein de catégories`
-* `Recherche rapide des ressources par autocomplétion`
-* `Lien direct vers l'URL de la fiche de métadonnées pour chaque flux`
-* `Mise à jour du .csv directement depuis le git indépendamment des versions du plugin`
-* `Prise en charge des flux WFS et WMS (GeoServer et MapServer) avec gestion des styles`
-* `Accès direct aux tables de l'extension spatiale PostGIS du SGBD PostgreSQL`
+* :material-note-edit-outline: Centralisation et gestion des ressources dans un fichier .csv au sein de catégories
+* :material-layers-search-outline: Recherche rapide des ressources par autocomplétion
+* :material-cloud-question-outline: Lien direct vers l'URL de la fiche de métadonnées pour chaque flux
+* :material-git: Mise à jour du .csv directement depuis le git indépendamment des versions du plugin
+* :material-earth: Prise en charge des flux WFS et WMS (GeoServer et MapServer) avec gestion des styles
+* :material-database-marker-outline: Accès direct aux tables de l'extension spatiale PostGIS du SGBD PostgreSQL
 
 
 ## Auteurs
+FluxCEN est développé par le service DSI du Conservatoire d'espaces naturels de Nouvelle-Aquitaine
 
 * [Romain MONTILLET](https://github.com/wanderzen91) est le développeur principal du plugin
 * [Thomas GACHET](https://github.com/tomgachet) est à l'origine du projet et apporte quelques contributions et idées 
