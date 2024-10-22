@@ -75,13 +75,15 @@ L'accès au formulaire *.ui* est ainsi directement intégré au *.qml* (fichier 
 
 Si l'accès à la majorité des ressources reste public, certaines peuvent être protégées par un couple *identifiant/mot de passe* (données métier confidentielles par exemple).
 
-L'accès à une table PostGIS nécessitera toujours quand à elle une connexion de ce type.
+L'accès à une table PostGIS nécessitera toujours quand à elle de renseigner un utilisateur et son mot de passe associé.
 
 Cette authentification n'est pas gérée depuis FluxCEN mais doit être **configurée depuis les serveurs** véhiculant les ressources :
 
-* depuis le serveur cartographique (type GeoServer) pour les flux WMS/WFS
+* depuis le serveur cartographique pour les flux WMS/WFS
 * depuis le serveur de bases de données pour les tables PostGIS.
 
-Pour accéder au ressources protégées, il faut créer en amont une authentification de type *`Basic authentication`* dans QGIS *(Préférences/Options/Authentification)*. Cela évite de devoir saisir à chaque fois son identifiant et son mot de passe à l'ouverture d'une ressource protégée.
+Pour accéder aux ressources protégées, il faut créer en amont une authentification de type *`Basic authentication`* dans QGIS *(Préférences/Options/Authentification)*. Cela évite de devoir saisir à chaque fois son identifiant et son mot de passe à l'ouverture d'une ressource protégée.
 
 Si aucune authentification n'est trouvée par QGIS, un message informe de la nécessité d'en paramétrer une.
+
+Depuis la version 4.7 de FluxCEN, il est possible d'indiquer l'authentification par défaut que le plugin devra utiliser pour se connecter à partir du bouton :material-tools: situé en bas à droite de la fenêtre. Il devient alors possible de gérer plusieurs authentifications si besoin.
